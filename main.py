@@ -354,6 +354,8 @@ def delete_item():
         cursor.execute(query, values)
         cursor.close()
 
+    print("Row deleted!")
+
     db.commit()
 
 
